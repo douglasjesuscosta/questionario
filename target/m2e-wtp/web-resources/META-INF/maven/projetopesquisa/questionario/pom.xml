@@ -131,6 +131,12 @@
     		<version>3.2.1</version>
 		</dependency>
 		
+		<dependency>
+    		<groupId>org.wicketstuff</groupId>
+    		<artifactId>wicketstuff-gae-initializer</artifactId>
+   			<version>7.7.0</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<resources>
