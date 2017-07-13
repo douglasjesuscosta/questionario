@@ -18,6 +18,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>projetopesquisa</groupId>
 	<artifactId>questionario</artifactId>
@@ -40,7 +41,6 @@
 		</license>
 	</licenses>
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<wicket.version>7.5.0-SNAPSHOT</wicket.version>
 		<jetty9.version>9.2.19.v20160908</jetty9.version>
 		<log4j.version>2.6.2</log4j.version>
@@ -137,10 +137,14 @@
    			<version>7.7.0</version>
 		</dependency>
 		
+		<dependency>
+    		<groupId>org.slf4j</groupId>
+   			<artifactId>slf4j-jdk14</artifactId>
+    		<version>1.7.21</version>
+		</dependency>
+		
 	</dependencies>
 	<build>
-		<directory>src/main/webapp/WEB-INF</directory>
- 	 	<outputDirectory>src/main/webapp/WEB-INF/classes</outputDirectory>
 		<resources>
 			<resource>
 				<filtering>false</filtering>
